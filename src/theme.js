@@ -1,8 +1,9 @@
 export default {
   breakpoint: "1200px",
   color: {
-    black: "#000",
+    black: "#070707",
     grey: "#959595",
+    green: "#8CAA36",
     white: "#fff",
     translucent: "rgba(255, 255, 255, 0.8)"
   },
@@ -15,7 +16,7 @@ export default {
   },
   font: {
     size: {
-      lg: "50px",
+      lg: "40px",
       md: "20px",
       sm: "14px"
     },

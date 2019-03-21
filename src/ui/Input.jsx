@@ -12,7 +12,7 @@ const Input = styled.input`
   box-sizing: border-box;
   margin: 0.5rem 0;
   width: 100%;
-  cursor: pointer;
+  /* cursor: pointer; */
 `;
 
 export default Input;

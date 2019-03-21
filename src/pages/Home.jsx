@@ -1,23 +1,38 @@
+// @ts-check
 import React from "react";
-import mapBackground from "../assets/world.svg";
-import Rectangle from "../components/Rectangle";
+import passportImage from "../assets/passport.jpeg";
+import Card from "../components/Card";
 import Search from "../components/Search";
+import SocialIcon from "../components/SocialIcons";
+import Button from "../ui/Button";
+import Screen from "../ui/Screen";
 import Text from "../ui/Text";
 import Title from "../ui/Title";
-import WorldMap from "../ui/WorldMap";
 
 const Home = () => {
   return (
     <>
-      <Rectangle>
-        <Title>Lorem, ipsum dolor.</Title>
-        <Text>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas
-          adipisci reiciendis molestias nobis quas quae!
-        </Text>
-        <Search />
-      </Rectangle>
-      <WorldMap src={mapBackground} />
+      <Screen fillHeight>
+        <Card center column>
+          <Title>Lorem, ipsum dolor.</Title>
+          <Text>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</Text>
+          <Search />
+          <SocialIcon />
+        </Card>
+      </Screen>
+      <Screen>
+        <Card justifyCenter alignStretch column>
+          <Title>Lorem, ipsum dolor.</Title>
+          <Text>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque soluta optio saepe, distinctio pariatur nemo
+            obcaecati, numquam amet nihil, rerum delectus debitis dicta accusantium cum aliquam laborum. Ipsum, optio
+            tenetur.
+          </Text>
+          <Button>Popunite upitnik</Button>
+        </Card>
+        <Card backgroundImage={passportImage} />
+      </Screen>
+      <Screen />
     </>
   );
 };

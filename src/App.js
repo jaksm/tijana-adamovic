@@ -1,20 +1,23 @@
 import React, { Component } from "react";
-import Home from "./pages/Home";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Navigation from "./components/Navigation";
-import Country from "./pages/Country";
 import Contact from "./pages/Contact";
+import Country from "./pages/Country";
+// @ts-check
+import Home from "./pages/Home";
+import WorldMap from "./ui/WorldMap";
 
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
         <>
+          <WorldMap />
           <Navigation />
           <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/vize/:county" component={Country} />
-            <Route path="/kontakt" component={Contact} />
+            <Route path="/upitnik" component={Contact} />
           </Switch>
         </>
       </BrowserRouter>
