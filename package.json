@@ -2,8 +2,10 @@
   "name": "tijana-adamovic",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jaksm.github.io/tijana-adamovic",
   "dependencies": {
     "formik": "^1.5.1",
+    "gh-pages": "^2.0.1",
     "normalize.css": "^8.0.1",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
@@ -18,7 +20,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "react-scripts build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
