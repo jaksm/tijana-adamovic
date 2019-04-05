@@ -20,6 +20,7 @@ const CardWrapper = styled(Flex)`
   background-size: cover;
   @media screen and (max-width: ${theme.breakpoint}) {
     padding: 3rem;
+    height: ${({ height }) => (height ? height : "100%")};
   }
 `;
 

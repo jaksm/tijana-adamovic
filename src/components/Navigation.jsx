@@ -6,6 +6,7 @@ import arrow from "../assets/more.svg";
 import toggleIcon from "../assets/toggle.svg";
 import { company } from "../data";
 import theme from "../theme";
+import Sidebar from "./Sidebar";
 
 const NavigationContainer = styled(Flex)`
   position: fixed;
@@ -98,6 +99,7 @@ const Logo = styled.h1`
 const Navigation = () => {
   const [y, setY] = useState(0);
   const [dropdownActive, setDropdownActive] = useState(false);
+  const [sidebarActive, setSidebarActive] = useState(false);
 
   const setOffset = () => {
     setY(window.pageYOffset);
@@ -136,7 +138,12 @@ const Navigation = () => {
           </Flex>
         </VisibleOnDesktop>
         <VisibleOnMobile>
-          <img src={toggleIcon} alt="toggle" />
+          <img src={toggleIcon} alt="toggle" onClick={() => setSidebarActive(true)} />
+          <Sidebar
+            active={sidebarActive}
+            onToggle={() => setSidebarActive(false)}
+            onLinkClick={() => setSidebarActive(false)}
+          />
         </VisibleOnMobile>
       </FlexItem>
     </NavigationContainer>

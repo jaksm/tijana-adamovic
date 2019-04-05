@@ -1,16 +1,15 @@
 import React from "react";
 import styled from "styled-components";
-
 import { socialLinks } from "../data";
 
 const SocialWrapper = styled.div`
   position: absolute;
   bottom: 50px;
-  left: 50px;
+  left: 30px;
 `;
 
 const SocialLink = styled.a`
-  padding: 0.75rem;
+  padding: 0.25rem;
   & > img {
     width: 35px;
     height: 35px;

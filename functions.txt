@@ -1,0 +1,26 @@
+const functions = require("firebase-functions");
+const nodemailer = require("nodemailer");
+// Do this:
+// https://myaccount.google.com/lesssecureapps
+// https://accounts.google.com/b/0/DisplayUnlockCaptcha
+
+const mailTransport = nodemailer.createTransport({
+  service: "gmail",
+  auth: {
+    user: "pixtunes123@gmail.com",
+    pass: "pix.tunes.123"
+  }
+});
+
+exports.sendContract = functions.https.onCall((data, context) => {
+  const mailOptions = {
+    from: "Pixtunes <noreply@firebase.com>",
+    to: "albrechtpanknin@gmail.com",
+    subject: "Wants Contract",
+    text: `${data.name} - ${data.email} (€${data.invested})`
+  };
+  return mailTransport
+    .sendMail(mailOptions)
+    .then(() => "success")
+    .catch(error => error);
+});

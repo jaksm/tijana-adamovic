@@ -28,6 +28,12 @@ const ButtonLink = styled(Link)`
   }
 `;
 
+const CountyText = styled.div`
+  max-height: 500px;
+  overflow-y: auto;
+  margin: 3rem 0;
+`;
+
 const Country = props => {
   const country = countries.find(c => c.name === props.match.params.county);
   return (
@@ -36,7 +42,7 @@ const Country = props => {
         <Card backgroundImage={country.image} />
         <Card column center solid>
           <Title>{country.title}</Title>
-          <div style={{ maxHeight: "500px", overflowY: "auto", margin: "3rem 0" }}>{country.text}</div>
+          <CountyText>{country.text}</CountyText>
           <ButtonLink to="/upitnik">Popunite Upitnik</ButtonLink>
         </Card>
       </Screen>

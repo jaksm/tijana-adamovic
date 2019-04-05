@@ -1,13 +1,12 @@
-import React from "react";
-import Card from "../components/Card";
-import Input from "../ui/Input";
-import Title from "../ui/Title";
 import { Formik } from "formik";
-import * as yup from "yup";
+import React from "react";
 import styled from "styled-components";
-import Button from "../ui/Button";
 import { Grid, GridItem } from "styled-grid-component";
+import * as yup from "yup";
+import Card from "../components/Card";
 import theme from "../theme";
+import Button from "../ui/Button";
+import Input from "../ui/Input";
 
 const Form = styled(Formik)`
   margin-top: 3rem;
@@ -55,12 +54,13 @@ const Contact = () => {
     message: ""
   };
   const validate = async values => await schema.isValid(values);
-  const submit = () => {};
+  const submit = obj => {
+    console.log(JSON.stringify(obj, null, 2));
+  };
 
   return (
     <>
       <Card padding="10rem" center column>
-        <Title>Upitnik</Title>
         <Form initialValues={initialValues} validate={validate} onSubmit={submit} validationSchema={schema}>
           {({ errors, touched, isSubmitting, handleBlur, values, handleChange, handleSubmit }) => (
             <FormContainer onSubmit={handleSubmit}>
