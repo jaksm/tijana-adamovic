@@ -8,11 +8,13 @@ import theme from "../theme";
 import Button from "../ui/Button";
 import Input from "../ui/Input";
 
-const Form = styled(Formik)`
-  margin-top: 3rem;
-`;
+const Form = styled(Formik)``;
 
-const FormContainer = styled.form``;
+const FormContainer = styled.form`
+  @media screen and (max-width: ${theme.breakpoint}) {
+    margin-top: 5rem;
+  }
+`;
 
 const FormField = styled(GridItem)`
   display: flex;
@@ -22,6 +24,13 @@ const FormField = styled(GridItem)`
 const FormError = styled.label`
   font-size: ${theme.font.size.sm};
   max-width: 100%;
+`;
+
+const FormGrid = styled(Grid)`
+  grid-template-columns: repeat(3, 1fr);
+  @media screen and (max-width: ${theme.breakpoint}) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 const schema = yup.object().shape({
@@ -64,7 +73,7 @@ const Contact = () => {
         <Form initialValues={initialValues} validate={validate} onSubmit={submit} validationSchema={schema}>
           {({ errors, touched, isSubmitting, handleBlur, values, handleChange, handleSubmit }) => (
             <FormContainer onSubmit={handleSubmit}>
-              <Grid width="100%" templateColumns="repeat(3, 1fr)" gap="20px" autoRows="minmax(100px, auto)">
+              <FormGrid width="100%" gap="20px" autoRows="minmax(100px, auto)">
                 <FormField>
                   <Input
                     placeholder="Ime i prezime"
@@ -172,7 +181,7 @@ const Contact = () => {
                   />
                   <FormError htmlFor="refferer">{errors.refferer && touched.refferer && errors.refferer}</FormError>
                 </FormField>
-              </Grid>
+              </FormGrid>
               <div>
                 <Input
                   as="textarea"

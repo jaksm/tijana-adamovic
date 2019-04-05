@@ -55,9 +55,9 @@ const Sidebar = props => {
         <SidebarLink to="/vize/usa">Usa</SidebarLink>
         <SidebarLink to="/vize/kanada">Kanada</SidebarLink>
         <SidebarLink to="/vize/engleska">Engleska</SidebarLink>
-        <SidebarLink to="/upitnik">Upitnik</SidebarLink>
         <SidebarLink to="/vize/australija">Australija</SidebarLink>
         <SidebarLink to="/esta-vize">Esta vize</SidebarLink>
+        <SidebarLink to="/upitnik">Upitnik</SidebarLink>
       </SidebarLinks>
     </SidebarContainer>
   );
