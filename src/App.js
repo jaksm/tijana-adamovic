@@ -1,6 +1,6 @@
 // @ts-check
 import React, { Component } from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import Navigation from "./components/Navigation";
 import Contact from "./pages/Contact";
 import Country from "./pages/Country";
@@ -11,7 +11,7 @@ import WorldMap from "./ui/WorldMap";
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <Router>
         <>
           <WorldMap />
           <Navigation />
@@ -22,7 +22,7 @@ class App extends Component {
             <Route path="/esta-vize" component={Esta} />
           </Switch>
         </>
-      </BrowserRouter>
+      </Router>
     );
   }
 }

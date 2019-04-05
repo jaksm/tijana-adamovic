@@ -64,7 +64,7 @@ const Contact = () => {
   };
   const validate = async values => await schema.isValid(values);
   const submit = async (obj, { resetForm }) => {
-    const response = await fetch("http://192.168.0.7:3000/send-mail", {
+    const response = await fetch("http://199.247.23.65:3000/send-mail", {
       method: "POST",
       headers: {
         Accept: "application/json",
