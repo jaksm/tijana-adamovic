@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "64ed23799dc9c6330001",
-    "url": "/tijana-adamovic/static/js/main.64ed2379.chunk.js"
+    "revision": "3bbcd288bfeb36ff5550",
+    "url": "/tijana-adamovic/static/js/main.3bbcd288.chunk.js"
   },
   {
     "revision": "8e43a3218d10ce406bbf",
     "url": "/tijana-adamovic/static/js/runtime~main.8e43a321.js"
   },
   {
-    "revision": "b0cc782fc2684534145f",
+    "revision": "92598e7c439b79454f18",
     "url": "/tijana-adamovic/static/css/2.fb97d6c6.chunk.css"
   },
   {
-    "revision": "b0cc782fc2684534145f",
-    "url": "/tijana-adamovic/static/js/2.b0cc782f.chunk.js"
+    "revision": "92598e7c439b79454f18",
+    "url": "/tijana-adamovic/static/js/2.92598e7c.chunk.js"
   },
   {
     "revision": "e0fd54df279fe02fb261a1e379ad36fa",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/tijana-adamovic/static/media/world.67d91d4c.svg"
   },
   {
-    "revision": "e974111f2f8a6be98bee3300c055732c",
+    "revision": "b6a75e8f733dfbf9dd3c4d0cbdfec10a",
     "url": "/tijana-adamovic/index.html"
   }
 ];

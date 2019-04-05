@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/tijana-adamovic/precache-manifest.81b5340128894459ab6413673d2ffd48.js"
+  "/tijana-adamovic/precache-manifest.495a1ccecefce5f08892468a61ffd98b.js"
 );
 
 workbox.clientsClaim();
