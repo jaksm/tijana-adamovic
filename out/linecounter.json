@@ -1,0 +1,406 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.2",
+    "workspace": "/home/jaksm/Projects/tijana-adamovic",
+    "linecount": [
+        {
+            "version": "0.2.2",
+            "counttime": "2019-03-22 00:03:42",
+            "filesum": 55,
+            "codesum": 16339,
+            "commentsum": 121,
+            "blanksum": 1920,
+            "statistics": {
+                ".md": {
+                    "code": 1,
+                    "comment": 1,
+                    "blank": 0
+                },
+                "": {
+                    "code": 18,
+                    "comment": 1,
+                    "blank": 5
+                },
+                ".json": {
+                    "code": 77,
+                    "comment": 0,
+                    "blank": 1
+                },
+                ".js": {
+                    "code": 256,
+                    "comment": 59,
+                    "blank": 30
+                },
+                ".html": {
+                    "code": 19,
+                    "comment": 23,
+                    "blank": 0
+                },
+                ".jsx": {
+                    "code": 712,
+                    "comment": 5,
+                    "blank": 65
+                },
+                ".svg": {
+                    "code": 5970,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".map": {
+                    "code": 4,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".css": {
+                    "code": 1,
+                    "comment": 2,
+                    "blank": 0
+                },
+                ".lock": {
+                    "code": 9281,
+                    "comment": 30,
+                    "blank": 1819
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 1,
+                    "filename": ".gitignore"
+                },
+                {
+                    "blank": 0,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "docs/asset-manifest.json"
+                },
+                {
+                    "filename": "docs/favicon.ico",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "docs/index.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "docs/manifest.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "docs/precache-manifest.eba5f3af9d71623d8c072df79d9fc3b0.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 10,
+                    "comment": 17,
+                    "filename": "docs/service-worker.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 2,
+                    "filename": "docs/static/css/2.fb97d6c6.chunk.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "docs/static/css/2.fb97d6c6.chunk.css.map"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 2,
+                    "filename": "docs/static/js/2.c2541c7c.chunk.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "docs/static/js/2.c2541c7c.chunk.js.map"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "docs/static/js/main.1dbbe8a3.chunk.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "docs/static/js/main.1dbbe8a3.chunk.js.map"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "docs/static/js/runtime~main.fdfcfda2.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "docs/static/js/runtime~main.fdfcfda2.js.map"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "docs/static/media/search.867f7f0e.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "docs/static/media/toggle.e0fd54df.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 2850,
+                    "comment": 0,
+                    "filename": "docs/static/media/world.105b749c.svg"
+                },
+                {
+                    "blank": 1,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "package.json"
+                },
+                {
+                    "filename": "public/favicon.ico",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 18,
+                    "comment": 23,
+                    "filename": "public/index.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "public/manifest.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "README.md"
+                },
+                {
+                    "blank": 2,
+                    "code": 25,
+                    "comment": 1,
+                    "filename": "src/App.js"
+                },
+                {
+                    "filename": "src/assets/canada.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "src/assets/facebook.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "src/assets/instagram.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "src/assets/more.svg"
+                },
+                {
+                    "filename": "src/assets/new-zeland.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src/assets/passport.jpeg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "src/assets/search.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "src/assets/toggle.svg"
+                },
+                {
+                    "filename": "src/assets/uk.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src/assets/usa.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 3089,
+                    "comment": 0,
+                    "filename": "src/assets/world.svg"
+                },
+                {
+                    "blank": 3,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "src/components/Card.jsx"
+                },
+                {
+                    "blank": 13,
+                    "code": 132,
+                    "comment": 0,
+                    "filename": "src/components/Navigation.jsx"
+                },
+                {
+                    "blank": 13,
+                    "code": 107,
+                    "comment": 1,
+                    "filename": "src/components/Search.jsx"
+                },
+                {
+                    "blank": 5,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "src/components/SocialIcons.jsx"
+                },
+                {
+                    "blank": 4,
+                    "code": 49,
+                    "comment": 3,
+                    "filename": "src/data.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "src/GlobalStyles.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 13,
+                    "comment": 3,
+                    "filename": "src/index.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "src/pages/Application.jsx"
+                },
+                {
+                    "blank": 9,
+                    "code": 191,
+                    "comment": 0,
+                    "filename": "src/pages/Contact.jsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 45,
+                    "comment": 0,
+                    "filename": "src/pages/Country.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 37,
+                    "comment": 1,
+                    "filename": "src/pages/Home.jsx"
+                },
+                {
+                    "blank": 15,
+                    "code": 89,
+                    "comment": 31,
+                    "filename": "src/serviceWorker.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 33,
+                    "comment": 0,
+                    "filename": "src/theme.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "src/ui/Button.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 15,
+                    "comment": 1,
+                    "filename": "src/ui/Input.jsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 32,
+                    "comment": 1,
+                    "filename": "src/ui/Screen.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "src/ui/Text.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "src/ui/Title.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 23,
+                    "comment": 1,
+                    "filename": "src/ui/WorldMap.jsx"
+                },
+                {
+                    "blank": 1819,
+                    "code": 9281,
+                    "comment": 30,
+                    "filename": "yarn.lock"
+                }
+            ]
+        }
+    ]
+}

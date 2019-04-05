@@ -19,7 +19,7 @@ const Screen = props => {
   return (
     <ScreenWrapper>
       <Grid
-        templateColumns={`repeat(${cols}, 1fr)`}
+        templateColumns={props.templateColumns || `repeat(${cols}, 1fr)`}
         gap="20px"
         width="100%"
         height={props.fillHeight ? "calc(100vh - 40px)" : null}

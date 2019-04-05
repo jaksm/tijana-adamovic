@@ -4,6 +4,7 @@ import passportImage from "../assets/passport.jpeg";
 import Card from "../components/Card";
 import Search from "../components/Search";
 import SocialIcon from "../components/SocialIcons";
+import { about, general } from "../data";
 import Button from "../ui/Button";
 import Screen from "../ui/Screen";
 import Text from "../ui/Text";
@@ -14,21 +15,20 @@ const Home = () => {
     <>
       <Screen fillHeight>
         <Card center column>
-          <Title>Lorem, ipsum dolor.</Title>
-          <Text>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</Text>
+          <Title>{general.title}</Title>
+          <Text>{general.subtitle}</Text>
           <Search />
           <SocialIcon />
         </Card>
       </Screen>
       <Screen>
         <Card justifyCenter alignStretch column>
-          <Title>Lorem, ipsum dolor.</Title>
-          <Text>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque soluta optio saepe, distinctio pariatur nemo
-            obcaecati, numquam amet nihil, rerum delectus debitis dicta accusantium cum aliquam laborum. Ipsum, optio
-            tenetur.
-          </Text>
+          <Title>{about.title}</Title>
+          {about.text}
           <Button>Popunite upitnik</Button>
+        </Card>
+        <Card justifyCenter alignStretch column>
+          {about.text2}
         </Card>
         <Card backgroundImage={passportImage} />
       </Screen>

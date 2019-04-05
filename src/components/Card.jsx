@@ -4,7 +4,7 @@ import Flex, { FlexItem } from "styled-flex-component";
 import theme from "../theme";
 
 const CardWrapper = styled(Flex)`
-  background-color: ${theme.color.translucent};
+  background-color: ${({ solid }) => (solid ? theme.color.white : theme.color.translucent)};
   position: relative;
   box-shadow: ${theme.shadow.right};
   height: 100%;
@@ -25,12 +25,10 @@ const CardWrapper = styled(Flex)`
 
 const Card = props => {
   return (
-    <CardWrapper {...props}>
-      <Flex {...props} full wrap>
-        {React.Children.map(props.children, child => (
-          <FlexItem>{child}</FlexItem>
-        ))}
-      </Flex>
+    <CardWrapper {...props} full>
+      {React.Children.map(props.children, child => (
+        <FlexItem>{child}</FlexItem>
+      ))}
     </CardWrapper>
   );
 };

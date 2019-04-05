@@ -1,0 +1,81 @@
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.2
+-------------------------------------------------------------------------------
+count time : 2019-03-22 00:03:42
+count workspace : /home/jaksm/Projects/tijana-adamovic
+total files : 55
+total code lines : 16339
+total comment lines : 121
+total blank lines : 1920
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |            .md|              1|              1|              0| 0.0061|
+   |               |             18|              1|              5|   0.11|
+   |          .json|             77|              0|              1|   0.47|
+   |            .js|            256|             59|             30|    1.6|
+   |          .html|             19|             23|              0|   0.12|
+   |           .jsx|            712|              5|             65|    4.4|
+   |           .svg|           5970|              0|              0|     37|
+   |           .map|              4|              0|              0|  0.024|
+   |           .css|              1|              2|              0| 0.0061|
+   |          .lock|           9281|             30|           1819|     57|
+   -------------------------------------------------------------------------
+.gitignore, code is 18, comment is 1, blank is 5.
+docs/asset-manifest.json, code is 16, comment is 0, blank is 0.
+docs/favicon.ico, it is a binary file.
+docs/index.html, code is 1, comment is 0, blank is 0.
+docs/manifest.json, code is 15, comment is 0, blank is 0.
+docs/precache-manifest.eba5f3af9d71623d8c072df79d9fc3b0.js, code is 34, comment is 0, blank is 0.
+docs/service-worker.js, code is 10, comment is 17, blank is 7.
+docs/static/css/2.fb97d6c6.chunk.css, code is 1, comment is 2, blank is 0.
+docs/static/css/2.fb97d6c6.chunk.css.map, code is 1, comment is 0, blank is 0.
+docs/static/js/2.c2541c7c.chunk.js, code is 1, comment is 2, blank is 0.
+docs/static/js/2.c2541c7c.chunk.js.map, code is 1, comment is 0, blank is 0.
+docs/static/js/main.1dbbe8a3.chunk.js, code is 1, comment is 1, blank is 0.
+docs/static/js/main.1dbbe8a3.chunk.js.map, code is 1, comment is 0, blank is 0.
+docs/static/js/runtime~main.fdfcfda2.js, code is 1, comment is 1, blank is 0.
+docs/static/js/runtime~main.fdfcfda2.js.map, code is 1, comment is 0, blank is 0.
+docs/static/media/search.867f7f0e.svg, code is 3, comment is 0, blank is 0.
+docs/static/media/toggle.e0fd54df.svg, code is 3, comment is 0, blank is 0.
+docs/static/media/world.105b749c.svg, code is 2850, comment is 0, blank is 0.
+package.json, code is 31, comment is 0, blank is 1.
+public/favicon.ico, it is a binary file.
+public/index.html, code is 18, comment is 23, blank is 0.
+public/manifest.json, code is 15, comment is 0, blank is 0.
+README.md, code is 1, comment is 1, blank is 0.
+src/App.js, code is 25, comment is 1, blank is 2.
+src/assets/canada.jpg, it is a binary file.
+src/assets/facebook.svg, code is 3, comment is 0, blank is 0.
+src/assets/instagram.svg, code is 13, comment is 0, blank is 0.
+src/assets/more.svg, code is 3, comment is 0, blank is 0.
+src/assets/new-zeland.jpg, it is a binary file.
+src/assets/passport.jpeg, it is a binary file.
+src/assets/search.svg, code is 3, comment is 0, blank is 0.
+src/assets/toggle.svg, code is 3, comment is 0, blank is 0.
+src/assets/uk.jpg, it is a binary file.
+src/assets/usa.jpg, it is a binary file.
+src/assets/world.svg, code is 3089, comment is 0, blank is 0.
+src/components/Card.jsx, code is 35, comment is 0, blank is 3.
+src/components/Navigation.jsx, code is 132, comment is 0, blank is 13.
+src/components/Search.jsx, code is 107, comment is 1, blank is 13.
+src/components/SocialIcons.jsx, code is 27, comment is 0, blank is 5.
+src/data.js, code is 49, comment is 3, blank is 4.
+src/GlobalStyles.jsx, code is 12, comment is 0, blank is 2.
+src/index.js, code is 13, comment is 3, blank is 2.
+src/pages/Application.jsx, code is 9, comment is 0, blank is 2.
+src/pages/Contact.jsx, code is 191, comment is 0, blank is 9.
+src/pages/Country.jsx, code is 45, comment is 0, blank is 3.
+src/pages/Home.jsx, code is 37, comment is 1, blank is 2.
+src/serviceWorker.js, code is 89, comment is 31, blank is 15.
+src/theme.js, code is 33, comment is 0, blank is 0.
+src/ui/Button.jsx, code is 21, comment is 0, blank is 2.
+src/ui/Input.jsx, code is 15, comment is 1, blank is 2.
+src/ui/Screen.jsx, code is 32, comment is 1, blank is 3.
+src/ui/Text.jsx, code is 11, comment is 0, blank is 2.
+src/ui/Title.jsx, code is 15, comment is 0, blank is 2.
+src/ui/WorldMap.jsx, code is 23, comment is 1, blank is 2.
+yarn.lock, code is 9281, comment is 30, blank is 1819.
+===============================================================================

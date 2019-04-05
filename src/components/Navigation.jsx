@@ -4,6 +4,7 @@ import styled from "styled-components";
 import Flex, { FlexItem } from "styled-flex-component";
 import arrow from "../assets/more.svg";
 import toggleIcon from "../assets/toggle.svg";
+import { company } from "../data";
 import theme from "../theme";
 
 const NavigationContainer = styled(Flex)`
@@ -90,7 +91,7 @@ const VisibleOnDesktop = styled.div`
 `;
 
 const Logo = styled.h1`
-  font-size: 32px;
+  font-size: 28px;
   padding: 0;
 `;
 
@@ -110,7 +111,7 @@ const Navigation = () => {
     <NavigationContainer justifyBetween y={y}>
       <FlexItem>
         <Logo as={Link} to="/">
-          LOGO
+          {company.name}
         </Logo>
       </FlexItem>
       <FlexItem>
@@ -125,12 +126,12 @@ const Navigation = () => {
               <img src={arrow} alt="toggle dropdown" />
               <DropdownMenu visible={dropdownActive}>
                 <Link to="/vize/australija">Australija</Link>
-                <Link to="/vize/novi-zeland">Novi Zeland</Link>
+                {/* <Link to="/vize/novi-zeland">Novi Zeland</Link> */}
                 <Link to="/esta-vize">Esta vize</Link>
               </DropdownMenu>
             </DropdownLink>
 
-            <Link to="/pratece-usluge">Pratece usluge</Link>
+            {/* <Link to="/pratece-usluge">Pratece usluge</Link> */}
             <Link to="/upitnik">Upitnik</Link>
           </Flex>
         </VisibleOnDesktop>

@@ -1,8 +1,10 @@
+// @ts-check
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import estaImage from "../assets/esta.jpg";
 import Card from "../components/Card";
-import { countries } from "../data";
+import { esta } from "../data";
 import theme from "../theme";
 import Screen from "../ui/Screen";
 import Title from "../ui/Title";
@@ -28,20 +30,19 @@ const ButtonLink = styled(Link)`
   }
 `;
 
-const Country = props => {
-  const country = countries.find(c => c.name === props.match.params.county);
+const Esta = () => {
   return (
-    <>
+    <div>
       <Screen fillHeight templateColumns="1fr 2fr">
-        <Card backgroundImage={country.image} />
+        <Card backgroundImage={estaImage} />
         <Card column center solid>
-          <Title>{country.title}</Title>
-          <div style={{ maxHeight: "500px", overflowY: "auto", margin: "3rem 0" }}>{country.text}</div>
+          <Title>{esta.title}</Title>
+          <div style={{ maxHeight: "500px", overflowY: "auto", margin: "3rem 0" }}>{esta.text}</div>
           <ButtonLink to="/upitnik">Popunite Upitnik</ButtonLink>
         </Card>
       </Screen>
-    </>
+    </div>
   );
 };
 
-export default Country;
+export default Esta;
